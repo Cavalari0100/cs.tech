@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+      <img
+        style={{
+          paddingBottom: "1em",
+          width: "500px",
+          height: "500px",
+        }}
+        src={"/logo-cstech.png"}
+        alt="Logo-Pagina"
+      />
+      <p style={{color:"white"}}>Site
+        <b><a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.facebook.com/CS.TechnologySystems"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
-      </header>
+          CS.TECH
+        </a></b>
+        em produção</p>
     </div>
   );
 }
